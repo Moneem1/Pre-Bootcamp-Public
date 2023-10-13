@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regisration Form </title>
+    <!-- styling link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h1>Regisration Form</h1>
+    <!-- put our label and input field in one div  -->
+    <div class="field">
+        <label for="fname">First Name:*</label>
+        <input type="text" name="first name" id="fname">
+    </div>
+    <div class="field">
+        <label for="lname">Last Name:*</label>
+        <input type="text" name="last name" id="lname">
+    </div>
+    <div class="field">
+        <label for="email">Email Adress:*</label>
+        <input type="email" name="email" id="email">
+    </div>
+    <div class="field">
+        <label for="pass">Password:*</label>
+        <input type="password" name="password" id="pass">
+    </div>
+    <div class="field">
+        <label for="cnfpass">Confirm Password:*</label>
+        <input type="password" name="confirm password" id="cnfpass">
+    </div>
+    <div class="field">
+        <label for="bdy">Birthday:*</label>
+        <input type="date" name="birthday" id="bdy">
+    </div>
+    <div class="field">
+    <label for="gender">Gender Identity:* </label>
+    </div>
+    <div class="field">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male">
+        
+        <label for="fml">Female</label>
+        <input type="radio" name="gender" id="fml">
+        
+        <label for="Non-binary">Non-binary</label>
+        <input type="radio" name="gender" id="Non-binary">
+        
+        <label for="I prefer not to answer">I prefer not to answer</label>
+        <input type="radio" name="gender" id="I prefer not to answer">
+    </div>
+    <p>A short description about my self :</p>
+    <textarea name="description"  cols="30" rows="4"></textarea>
+    <div class="field">
+        <label for="language">Favourite language: </label>
+        <select name="language" id="language" >
+            <!-- in the option tag the value must be the same of the word we putted betwwen them -->
+            <option value="Javascript">Javascript</option>
+            <option value="Python">Python</option>
+            <option value="C#">C#</option>
+    </select>
+    </div>
+    <div class="field">
+        <input type="checkbox" name="subscribe" id="sub">
+        <label for="sub">Yes, Iwould like to receive periodic email updates</label>
+    </div>
+    <div>
+        <!-- button to submit  -->
+        <input type="submit" value="Create Account">
+    </div>
+    <p class="note">*Indicate a required field</p>
+
+</body>
+</html>

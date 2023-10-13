@@ -1,0 +1,12 @@
+/* styling of body  */
+body{
+    margin-left: 30%;
+}
+
+/* style of class field & note */
+.field{
+    margin-bottom: 20px;
+}
+.note{
+    color: red;
+}
