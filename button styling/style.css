@@ -1,0 +1,25 @@
+.Container{
+    margin: 50px ;
+}
+.Container  #b1{
+    width: 120px;
+    font-weight: 550;
+    border: 2px #1dbb96 solid;
+    color: #03fcc2;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+.Container  #b2{
+    color:white;
+    background-color:#03fcc2;
+    border: 1px #03fcc2;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+.Container  #b3{
+    color:white;
+    width:160px;
+    background-color: rgb(50, 81, 205);
+    border: 1px black solid;
+    box-shadow: 3px 3px 0px 0px black;
+}
