@@ -1,0 +1,26 @@
+.row{
+    display: flex;
+    justify-content:flex-start;
+}
+.col{
+    background-color: rgb(8, 174, 82);
+    width: 150px;
+    height:40px;
+    margin:10px;
+    justify-content: space-evenly;
+    flex:1;
+}
+.col-2{
+    background-color:rgb(8, 174, 82);
+    width: 150px;
+    height:40px;
+    margin:10px;
+    flex:2;
+}
+.col-3{
+    background-color:rgb(8, 174, 82);
+    width: 150px;
+    height:40px;
+    margin:10px;
+    flex:3;
+}
