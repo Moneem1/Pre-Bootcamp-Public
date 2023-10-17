@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 0 20%;
+}
+.maincards{
+    display: flex;
+}
+.nav{
+    background-color: black;
+    color :white;
+    height: 60px;
+}
+.nav h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    padding: 10px;
+}
+#feed{
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px 0;
+}
+.adding{
+    height:250px;
+    width: 140px;
+    border: 3px black solid;
+    padding:  10px;
+}
+.avatar{
+    margin:10px;
+    padding: 10px;
+}
+.avatar img{
+    height:70px;
+    margin: 10px;
+    padding-bottom: 20px;
+}
+.avatar a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    text-align:center;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+.avatar h2{
+    padding: 30px 0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+.cards{
+    display:flex;
+    flex-direction: column;
+}
+.thirdcard .main p{
+    margin-left: 30px;
+}
+.secondcard .main p{
+    margin-right: 30px;
+}
+.firstcard,.secondcard,.thirdcard{
+    height:120px;
+    width: 450px;
+    border: 3px black solid;
+    padding: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.main h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+}
+.main p{
+    font-size:18px;
+    font-family:sans-serif;
+    padding-left: 80px;
+}
+.main > button{
+    width: 80px;
+    height: 40px;
+    background-color: rgba(237, 216, 27, 0.763);
+    box-shadow: 4px 4px black;
+}
+#description{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
