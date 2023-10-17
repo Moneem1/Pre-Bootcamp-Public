@@ -1,0 +1,97 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+.container{
+    margin-left: 10%;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items:baseline;
+    width: 80%;
+    height: 80px;
+    background-color: rgb(174, 171, 171);
+}
+.title{
+    font-size:30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.input{
+    width: 250px;
+    height:30px;
+    margin:20px 60px;
+}
+.btn1{
+    height: 30px;
+    width:80px;
+    background-color: rgb(0, 102, 255);
+    color: white;
+    box-shadow: 3px 3px black;
+    font-size: large;
+}
+.home1,.home2{
+    width:350px;
+    height: 200px;
+    border: 4px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+.head1{
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+}
+.desc{
+    font-size:18px;
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+.desc1{
+    text-align:end;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.plural{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+.btn2,.btn3{
+    height:30px;
+    width:80px;
+    background-color: rgba(240, 213, 5, 0.888);
+    border:1px solid black;
+    box-shadow: 3px 3px black;
+}
+.define{
+    width:250px;
+    height: 150px;
+    border: 4px solid black;
+    padding: 20px;
+    margin:20px 20px
+    
+}
+.define .defintiion{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.define  #add{
+    width: 250px;
+    height: 40px;
+    font-size: 20px;
+    font-weight:bold;
+    background-color: rgba(19, 184, 19, 0.751);
+    box-shadow: 4px 4px black;
+}
+.row1,.row2{
+    display: flex;
+    align-items:flex-start;
+}
+
+
+
+
