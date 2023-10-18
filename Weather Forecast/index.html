@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!--header-->
+    <div class="header">
+        <h1>DojoWeather</h1>
+        <ul id="list" onclick="msg(this)">
+            <li>Burbank</li>
+            <li>Chicago</li>
+            <li>Dallas</li>
+        </ul>
+    </div>
+
+<!-- main container-->
+    <div class="container">
+<!--display temperature-->
+        <div class="displayTemp">
+            <h2>San Jose</h2>
+            <div class="temp">
+                <p>show temperature in</p>
+                <select name="temperature" id="T" >
+                    <option id="temp1">°C</option>
+                    <option id="temp2" onclick="changeOn(this)">°F</span></option>
+                </select>
+            </div>
+        </div>
+        <hr>
+<!--main body -->
+        <div class="main">
+            <div class="day">
+                <h2>Today</h2>
+                <img src="assets/some_rain.png" alt="Some rain">
+                <p>some rain</p>
+                <div class="degree">
+                    <span id="firstsp1">24°</span>
+                    <span id="secondsp2">18°</span>
+                </div>
+            </div>
+<!--Tomorrow-->
+            <div class="day">
+                <h2>Tomorrow</h2>
+                <img src="assets/some_sun.png" alt="Some rain">
+                <p>some sun</p>
+                <div class="degree">
+                    <spani id="firstsp3">27°</span>
+                    <span id="secondsp4">19°</span>
+                </div>
+            </div>
+<!--Friday-->
+            <div class="day">
+                <h2>Friday</h2>
+                <img src="assets/some_clouds.png" alt="Some rain">
+                <p>some clouds</p>
+                <div class="degree">
+                    <span id="firstsp5">21°</span>
+                    <span id="secondsp6">16°</span>
+                </div>
+            </div>
+<!--Saturday-->
+            <div class="day">
+                <h2>Saturday</h2>
+                <img src="assets/some_sun.png" alt="Some rain">
+                <p>some sun</p>
+                <div class="degree">
+                    <span id="firstsp7">26°</span>
+                    <span id="secondsp8">21°</span>
+                </div>
+            </div>
+        </div>
+<!--footer-->
+        <div class="footer">
+            <img src="assets/cookie.png" alt="cookie">
+            <p><span id="notes">Stop! Cookie time<br></span> use cookies(sadly not the edible ones) to personalize content and ads,to provide social media features and to analyse our traffic.<a href="#">Read more...</a></p>
+            <button onclick="hide(this)">I Accept</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
