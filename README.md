@@ -1,5 +1,5 @@
 # Web Fundamentals :
-#### Web Fundaments Objectives :
+#### Web Fundamentals Objectives :
 ```
 - Understand the theoretical components of the web and how they interact
 - Understand the client-server model
@@ -20,7 +20,7 @@
 ```
 Learn a number of tags that we can wrap the contents with(Heading and paragraphs of text,Images,Links,Lists,Tables,Forms,about Divs)
 ```
-### CCS :
+### CSS :
 ```
 Cascading Style Sheets (CSS) is a style sheet language used for specifying the presentation
 and styling of a document written in a markup language such as HTML or XML
